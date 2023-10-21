@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import About from './components/About';
+import Cards from './components/Cards';
 import './App.css'; // Create or import your main CSS file
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
               <Link to="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
+              <Link to="/cards" className="nav-link">Apartments</Link>
+            </li>
+            <li className="nav-item">
               <Link to="/about" className="nav-link">About</Link>
             </li>
           </ul>
@@ -20,6 +24,7 @@ function App() {
 
         <Routes>
           <Route path="/about" element={<About />} />
+          <Route path="/cards" element={<Cards />} />
           <Route path="/" element={<div>Home Page Content</div>} />
         </Routes>
       </div>
