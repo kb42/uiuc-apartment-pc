@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: borer-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nokora';
+    scroll-behavior: smooth;
+}
+
+.navigation_bar{
+    background: #587291;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navigation_bar_holder{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.logo_holder{
+    padding-left: 0px;
+    color: #fff;
+    display: flex;
+    font-family: 'Offside', sans-serif;
+    align-items: center;
+    list-style: none;
+    font-size: 2rem;
+
+}
+
+.logo_holder span{
+   color: #ED6A5A;
+
+}
+.main_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation_bar_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    text-decoration: none;
+    height: 100%;
+}
+.main_links{
+    color: #fff;
+    font-family: 'Nokora', sans-serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: all 0.2s ease;
+}
+.main_links:hover{ /*the benefit of having this class is that we can*/
+             /*basically get our different buttons to change color*/
+             /*when we try to use them*/
+    color: #ED6A5A;
+    transition: all 0.2 ease;
+
+}
