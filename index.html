@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UIUC Apartments Project</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="styles.css" /> <!--linking this html file to style sheet-->
+    <title>React App</title>
+  </head>
+  <body>
+    <!--Creating the navigation bar-->
+    <nav class= "navigation_bar">
+        <div class = "navigation_bar_holder">
+          <ul class = "logo_holder">
+            <li>
+              <h1><span>{</span>&lt;/&gt;<span>}</span></h1>
+            </li>
+          </ul>
+          <ul class = "main_menu">
+            <li class= "navigation_bar_item">
+              <a href = "#temp" class = "main_links">Home</a>
+            </li>
+            <li class= "navigation_bar_item">
+              <a href = "#temp" class = "main_links">Listings</a>
+            </li>
+            <li class= "navigation_bar_item">
+              <a href = "#temp" class = "main_links">Resources</a>
+            </li>
+            <li class= "navigation_bar_item">
+              <a href = "#temp" class = "main_links">About</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!--Main Page-->
+    <div class="main_frame" id="home">
+      <div class="main_image"></div>
+      <div class="text_image"></div>
+    </div>
+
+    <div class="Description">
+      <div class="Description_holder">
+        <div class="Description_image_holder"></div>
+        <div class="Description_header"><h3><span>HOW IT WORKS</span><br><br>Lorem ipsum dolor sit amet. Aut sunt modi non deleniti quaerat est doloremque nihil. Aut perspiciatis blanditiis At velit optio ab reiciendis omnis sed enim facere.
+          Eos aperiam nihil in delectus deleniti est culpa dolore! Est dolorem suscipit qui vitae quia qui quae facere qui illum veritatis ea sunt voluptas et delectus omnis. Aut architecto voluptas rem odio optio ab commodi laboriosam?
+          Et quae recusandae aut quod architecto cum eveniet</h3></div>
+        <div class="Description_content"><h3></h3></div>
+      </div>
+    </div>
+
+    
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

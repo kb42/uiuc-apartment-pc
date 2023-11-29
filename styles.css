@@ -1,0 +1,149 @@
+
+*{
+    box-sizing: borer-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nokora';
+    scroll-behavior: smooth;
+}
+
+.navigation_bar{
+    background: #587291;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navigation_bar_holder{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.logo_holder{
+    padding-left: 0px;
+    color: #fff;
+    display: flex;
+    font-family: 'Offside', sans-serif;
+    align-items: center;
+    list-style: none;
+    font-size: 2rem;
+
+}
+
+.logo_holder span{
+   color: #ED6A5A;
+
+}
+.main_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation_bar_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    text-decoration: none;
+    height: 100%;
+}
+.main_links{
+    color: #fff;
+    font-family: 'Nokora', sans-serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: all 0.2s ease;
+}
+.main_links:hover{ /*the benefit of having this class is that we can*/
+             /*basically get our different buttons to change color*/
+             /*when we try to use them*/
+    color: #ED6A5A;
+    transition: all 0.2 ease;
+
+}
+.main_frame{
+    background: #587291;
+    background-size: 100%;
+}
+.main_image{
+    
+    height: 1000px;
+    width: 100%;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-image: url("campustown.JPG");
+    background-position-x: center;
+    display: flex;
+}
+
+.text_image{
+    position: relative;
+    display: inline;
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-image: url("campustown.JPG");
+    
+}
+
+.Description{
+    background-color: #ED6A5A;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+
+.Description_holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 boxes side by side, equal dimensions */
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+
+}
+.Description_header span{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    font-family: 'Offside',sans-serif;
+    align-items: left;
+    text-align: left;
+    font-size: 2rem;
+    
+}
+
+.Description_header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    font-family: 'Offside',sans-serif;
+    align-items: left;
+    text-align: left;
+    font-size: 1.5rem;  
+}
+
+.Description_content{
+    padding: 0;
+}
