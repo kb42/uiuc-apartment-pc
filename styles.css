@@ -76,3 +76,74 @@
     transition: all 0.2 ease;
 
 }
+.main_frame{
+    background: #587291;
+    background-size: 100%;
+}
+.main_image{
+    
+    height: 1000px;
+    width: 100%;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-image: url("campustown.JPG");
+    background-position-x: center;
+    display: flex;
+}
+
+.text_image{
+    position: relative;
+    display: inline;
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-image: url("campustown.JPG");
+    
+}
+
+.Description{
+    background-color: #ED6A5A;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+
+.Description_holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 boxes side by side, equal dimensions */
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+
+}
+.Description_header span{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    font-family: 'Offside',sans-serif;
+    align-items: left;
+    text-align: left;
+    font-size: 2rem;
+    
+}
+
+.Description_header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    font-family: 'Offside',sans-serif;
+    align-items: left;
+    text-align: left;
+    font-size: 1.5rem;  
+}
+
+.Description_content{
+    padding: 0;
+}
